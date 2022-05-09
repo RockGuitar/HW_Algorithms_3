@@ -25,7 +25,7 @@ public class IntegerListRealisation implements IntegerList {
     }
 
     public void checkSize () {
-        if (this.arraySize >= numberOfElements) {
+        if (this.arraySize >= this.arrayInt.length) {
             this.grow();
         }
     }
