@@ -13,8 +13,16 @@ public class Main {
         myArray.add(28);
         myArray.removeIndex(0);
         System.out.println(myArray.toString());
+        System.out.println(myArray.toString());
         System.out.println(myArray.contains(2));
         System.out.println(myArray.contains(28));
+        System.out.println(myArray.arrayInt.length);
+        myArray.grow();
+        System.out.println(myArray.arrayInt.length);
+        System.out.println(myArray.toString());
+//        int[] someArr = IntegerListRealisation.generateRandomArray();
+//        IntegerListRealisation.quickSort(someArr,0,someArr.length-1);
+//        System.out.println(Arrays.toString(someArr));
 //        Код Сравнения времени сортировок
 
 //        long minSortTime = 100_000;
